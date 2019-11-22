@@ -1,3 +1,15 @@
+.mixin {
+  background: #17A2B8;
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-size: 16px;
+  color: #FFFFFF;
+  height: 2em;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2em;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -169,7 +181,6 @@ img {
   margin: 0 auto;
 }
 header {
-  position: fixed;
   width: 800px;
   top: 0;
   left: 0;
@@ -202,6 +213,9 @@ header * {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.welcome {
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section {
   margin: 30px 0;
@@ -248,4 +262,16 @@ header * {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  background: #17A2B8;
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-size: 16px;
+  color: #FFFFFF;
+  height: 2em;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2em;
 }
