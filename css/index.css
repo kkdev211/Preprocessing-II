@@ -190,6 +190,7 @@ header {
   border-style: dashed;
   border-color: #C0C0C0;
   padding: 10px;
+  padding-top: 2em;
   display: flex;
   align-items: center;
 }
@@ -199,6 +200,9 @@ header li {
 header a {
   color: #212529;
   text-decoration: none;
+}
+header nav {
+  padding-left: 300px;
 }
 header * {
   display: inline;
@@ -274,4 +278,47 @@ header * {
   display: table-cell;
   vertical-align: middle;
   font-size: 2em;
+}
+@media only screen and (max-width: 500px) {
+  header {
+    display: flex;
+    width: 500px;
+  }
+  .welcome {
+    padding: 1em;
+    margin: 1em;
+  }
+  .home .content-section {
+    width: auto;
+    margin: 20px;
+  }
+  .home .content-section .text-content {
+    width: 100%;
+  }
+  .home .content-section .img-content {
+    width: auto;
+    margin-left: 2em;
+  }
+  .home .content-destination {
+    width: 90%;
+    margin: 2em;
+  }
+  .home .content-destination img {
+    width: auto;
+    margin-left: 1.5em;
+  }
+  .home .content-pick {
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .home .content-pick .destination {
+    width: 100%;
+  }
+  .home .content-pick .destination .btn {
+    padding: 10px 40px;
+    margin-left: 2em;
+  }
 }
