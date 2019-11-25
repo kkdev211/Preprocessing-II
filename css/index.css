@@ -288,20 +288,22 @@ header * {
     padding-bottom: 1em;
     padding-top: 2em;
   }
-  header h2 {
-    width: 500px;
-    padding-left: 5em;
-    justify-content: center;
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   header li {
     margin: 10px;
+    width: 100px;
   }
   header nav {
     width: 500px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-right: 200px;
+    justify-content: space-evenly;
+    padding-right: 300px;
+    font-size: 2em;
   }
   .welcome {
     padding: 1em;
